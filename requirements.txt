@@ -1,2 +1,4 @@
 discord.py-self
 python-dotenv
+aiohttp
+rich
