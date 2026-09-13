@@ -1665,7 +1665,7 @@ class FarmingEngine(commands.Cog):
                 await self.save_state()
                 await self.notify_channel("⚠️ Component Deactivated", f"Missing materials for recipe `{self.config['refine_recipe_id']}`. Disabling refine loop.")
 
-bot = commands.Bot(command_prefix="~~", self_bot=True)
+bot = commands.Bot(command_prefix="$$", self_bot=True)
 
 @bot.event
 async def on_ready():
