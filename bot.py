@@ -30,7 +30,7 @@ except ImportError:
 # ---------------------------------------------------------------------------
 load_dotenv()
 
-TOKEN = os.getenv("BOT_TOKEN")
+TOKEN = os.getenv("DISCORD_TOKEN")
 CHANNEL_ID = int(os.getenv("CHANNEL_ID", "0"))
 TARGET_BOT_ID = int(os.getenv("TARGET_BOT_ID", "0"))
 DAILY_ID = int(os.getenv("DAILY_ID", "0"))
